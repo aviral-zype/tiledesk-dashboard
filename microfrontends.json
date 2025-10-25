@@ -1,0 +1,29 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "tiledesk-dashboard": {
+      "routing": [
+        {
+          "paths": ["/", "/dashboard", "/dashboard/*"]
+        }
+      ],
+      "development": {
+        "fallback": "tiledesk-dashboard-mu.vercel.app"
+      }
+    },
+    "chat21-ionic": {
+      "routing": [
+        {
+          "paths": ["/chat", "/chat/*"]
+        }
+      ]
+    },
+    "design-studio": {
+      "routing": [
+        {
+          "paths": ["/design", "/design/*"]
+        }
+      ]
+    }
+  }
+}
