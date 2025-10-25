@@ -4,7 +4,7 @@
     "tiledesk-dashboard": {
       "routing": [
         {
-          "paths": ["/", "/dashboard", "/dashboard/*"]
+          "paths": ["/", "/dashboard", "/chat/:dashboard*"]
         }
       ],
       "development": {
@@ -14,14 +14,14 @@
     "chat21-ionic": {
       "routing": [
         {
-          "paths": ["/chat", "/chat/*"]
+          "paths": ["/chat", "/chat/:path*"]
         }
       ]
     },
     "design-studio": {
       "routing": [
         {
-          "paths": ["/design", "/design/*"]
+          "paths": ["/cds", "/cds/:path*"]
         }
       ]
     }
