@@ -4,7 +4,7 @@
     "tiledesk-dashboard": {
       "routing": [
         {
-          "paths": ["/", "/dashboard", "/chat/:dashboard*"]
+          "paths": ["/", "/dashboard", "/dashboard/:path*"]
         }
       ],
       "development": {
