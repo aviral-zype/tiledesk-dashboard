@@ -2,11 +2,6 @@
   "$schema": "https://openapi.vercel.sh/microfrontends.json",
   "applications": {
     "tiledesk-dashboard": {
-      "routing": [
-        {
-          "paths": ["/", "/dashboard", "/dashboard/:path*"]
-        }
-      ],
       "development": {
         "fallback": "tiledesk-dashboard-mu.vercel.app"
       }
